@@ -26,6 +26,6 @@ s.mens_apparel= true
 s.womens_apparel = false
 s.save
 
-puts Store.new
+puts Store.count
 
 # 2. Output (`puts`) the number of the stores using ActiveRecord's `count` method, to ensure that there are three stores in the database.
